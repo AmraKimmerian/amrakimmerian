@@ -1,86 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Anton Stukov CV</title>
-</head>
-<body>
-    <table cellspaceing="15">
-        <tr>
-            <td><img src="avatar.jpeg"
-                width="150" alt="Тут мое фото">
-            </td>
-                <td>
-                    <h1>Антон Стуков</h1>
-                    <p><em>Я React и <strong>Android</strong> разработчик</em></p>
-                    <p><i>Я люблю путешествовать, 
-                        программировать и заниматься спортом</i></p>
-                </td>
-        </tr>
-    </table>
-    
-    
-        <hr>
-        <h2>Мои социальные сети</h2>
-        <ul type="square">
-            <li><a href="https://instagram.com/anton_stukov" target="_blank">Instagram</a></li>
-            <li><a href="https://web.telegram.org/k/" target="_blank">Telegram</a></li>
-        </ul>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="avatar.jpeg" . alt="Тут мое фото" class="avatar" />
+
+        <div class="info-text">
+          <h1>Антон Стуков</h1>
+          <p>Я React и <strong>Android</strong> разработчик</p>
+          <p>Я люблю путешествовать, программировать и заниматься спортом</p>
+
+          <h4>Мои социальные сети</h4>
+          <a href="https://instagram.com/anton_stukov" target="_blank"
+            >Instagram</a>
+          <a href="https://web.telegram.org/k/" target="_blank">Telegram</a>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
         <h2>Мои хобби</h2>
-        <ol type="I">
-            <li>Лазертаг</li>
-            <li>Турник</li>
-            <li>Лыжи</li>
-            <li>Чтение</li>
+        <ol type="1" class="list">
+          <li>Лазертаг</li>
+          <li>Турник</li>
+          <li>Лыжи</li>
+          <li>Чтение</li>
         </ol>
+      </div>
 
-        <hr>
-
+      <div class="card bg-green">
         <h2>Опыт работы</h2>
-        <table>
-            <tr>
-                <th>Компания</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-            <tr>
-                <td>ЗАО "Прогноз"</td>
-                <td>Дизайнер</td>
-                <td>2007-2008</td>
-            </tr>
-            <tr>
-                <td>ЗАО "Прогноз"</td>
-                <td>Руководитель центра дизайна</td>
-                <td>2008-2014</td>
-            </tr>
-            <tr>
-                <td>ISimpleLab</td>
-                <td>Android-разработчик</td>
-                <td>2017-2020</td>
-            </tr>
+        <table class="table">
+          <tr>
+            <td>ЗАО "Прогноз"</td>
+            <td>Дизайнер</td>
+            <td>2007-2008</td>
+          </tr>
+          <tr>
+            <td>ЗАО "Прогноз"</td>
+            <td>Руководитель центра дизайна</td>
+            <td>2008-2014</td>
+          </tr>
+          <tr>
+            <td>42Lenina</td>
+            <td>Android-разработчик</td>
+            <td>2016-2017</td>
+          </tr>
+          <tr>
+            <td>ISimpleLab</td>
+            <td>Android-разработчик</td>
+            <td>2017-2020</td>
+          </tr>
         </table>
+      </div>
 
-        <hr>
-        
+      <div class="card bg-red">
         <h2>YouTube курсы</h2>
-        <a href="youtube.html">Посмотреть список</a>
+        <ul class="link-list">
+          <li>
+            <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU">Курс HTML</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=188s"
+              >Курс CSS</a
+            >
+          </li>
+        </ul>
+      </div>
 
-        <hr>
-
+      <div class="contact">
         <h2>Связаться со мной</h2>
-        <form action="/">
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" placeholder="Введите ваше имя">
-            <br>
-            <label for="name">Ваш email:</label>
-            <input type="email" id="name" cval placeholder="Введите ваш email">
-            <br>
-            <label for="text">Ваше сообщение:</label>
-            <br>
-            <textarea id="text" cols="10" rows="2"></textarea>
-            <br>
-            <input type="submit" value="Связаться">
-        </form>
 
-</body>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите ваше имя" />
+            </div>
+
+            <div class="form-group">
+              <label for="name">Ваш email:</label>
+              <input
+                type="email"
+                id="name"
+                cval
+                placeholder="Введите ваш email"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="text">Ваше сообщение:</label>
+            <textarea id="text" cols="18" rows="3"></textarea>
+          </div>
+
+          <input type="submit" value="Связаться" class="btn" />
+        </form>
+      </div>
+
+      <div class="position">
+        <div class="box"></div>
+    </div>
+    
+    </div>
+
+
+
+    <div style="margin-bottom: 500px;"></div>
+  </body>
 </html>
