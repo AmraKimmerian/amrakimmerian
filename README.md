@@ -45,5 +45,5 @@
 ### Связаться со мной
 
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white)](https://t.me/amrakimmerian)
-[![MAX](https://img.shields.io/badge/MAX-5A4EF5)](https://web.max.ru/148800186)
+[![MAX](https://img.shields.io/badge/MAX-5A4EF5)](https://max.ru/u/f9LHodD0cOKVGaTOmYC1V7UEYKBuLHzdI_ylXCL1PZS_JKyGXqHAlGGAilo)
 [![Email](https://img.shields.io/badge/Email-555555)](mailto:amrakimmerian@gmail.com)
